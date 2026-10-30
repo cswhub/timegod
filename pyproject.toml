@@ -13,6 +13,10 @@ keywords = ["time", "datetime", "timezone"]
 
 dependencies = []
 
+[project.urls]
+Homepage = "https://github.com/cswhub/timegod"
+Repository = "https://github.com/cswhub/timegod"
+
 [build-system]
 requires = ["uv_build>=0.12.1,<0.13.0"]
 build-backend = "uv_build"
