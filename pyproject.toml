@@ -1,0 +1,18 @@
+[project]
+name = "timegod"
+version = "0.1.0"
+description = "一个简洁的 Python 时间处理工具"
+readme = "README.md"
+authors = [
+    { name = "csw", email = "cswww@163.com" }
+]
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+keywords = ["time", "datetime", "timezone"]
+
+dependencies = []
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
